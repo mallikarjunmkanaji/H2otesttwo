@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequestorderActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/custtooltheme">
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_below="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardElevation="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="25dp">
+
+                <ImageView
+                    android:layout_marginStart="10dp"
+                    android:layout_width="60dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/can1"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="20 Litre"
+                        android:textColor="#000000"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/bigminus_id"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorPrimary"
+                    android:text="-"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="100dp"
+                    android:textSize="25sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/bigcountid"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:hint="0"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginStart="10dp"/>
+
+                <Button
+                    android:id="@+id/bigplus_id"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorPrimary"
+                    android:layout_marginStart="10dp"
+                    android:text="+"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardElevation="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="25dp">
+
+                    <ImageView
+                        android:layout_marginStart="10dp"
+                        android:layout_width="60dp"
+                        android:layout_height="65dp"
+                        android:src="@drawable/can2"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="5 Litre"
+                        android:textColor="#000000"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/fiveminus_id"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorPrimary"
+                    android:text="-"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="100dp"
+                    android:textSize="25sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/fivecountid"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:hint="0"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginStart="10dp"/>
+
+                <Button
+                    android:id="@+id/fiveplus_id"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorPrimary"
+                    android:layout_marginStart="10dp"
+                    android:text="+"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:cardElevation="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="25dp">
+
+                    <ImageView
+                        android:layout_marginStart="10dp"
+                        android:layout_width="60dp"
+                        android:layout_height="65dp"
+                        android:src="@drawable/can3"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="1 Litre"
+                        android:textColor="#000000"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/oneminus_id"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorPrimary"
+                    android:text="-"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="100dp"
+                    android:textSize="25sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/onecountid"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:hint="0"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginStart="10dp"/>
+
+                <Button
+                    android:id="@+id/oneplus_id"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorPrimary"
+                    android:layout_marginStart="10dp"
+                    android:text="+"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <Button
+            android:id="@+id/reqstordrbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFFFF"
+            android:text="Order Now"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

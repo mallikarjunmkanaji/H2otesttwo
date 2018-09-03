@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "110085265910",
+    "firebase_url": "https://h2otesttwo.firebaseio.com",
+    "project_id": "h2otesttwo",
+    "storage_bucket": "h2otesttwo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110085265910:android:86fb07bda05b18f3",
+        "android_client_info": {
+          "package_name": "com.techkshetra.tpc1.h2otesttwo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110085265910-kf76ie4hia66v1rlatg2ltrsif9dv16m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techkshetra.tpc1.h2otesttwo",
+            "certificate_hash": "26eaccd17afc64e8b51cf7d248797d2486e77875"
+          }
+        },
+        {
+          "client_id": "110085265910-nomon5d7057b5gllgpk5kfe8adl0uk67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbC5KoEoLPSbJn5REa1hYMDXr36Gg1KKs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110085265910-nomon5d7057b5gllgpk5kfe8adl0uk67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
